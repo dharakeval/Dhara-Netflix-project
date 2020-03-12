@@ -1,0 +1,58 @@
+
+.logo{
+
+  font-weight: bold;
+  font-style: italic;
+  font-family: sans-serif;
+  text-align: center;
+  left: 0;
+  font-size: 30px;
+  position: absolute;
+ 
+
+}
+.s{
+
+display: inline-block;
+animation: mover 6s linear infinite;
+color:rgb(218, 28, 132);
+
+}
+@keyframes mover{
+
+0%{
+  text-shadow: 0 0 30px rgb(243, 238, 240);
+}
+50%{
+  text-shadow: 0 0 30px rgb(243, 238, 248);
+  transform: translateY(15px);
+}
+100%{
+  text-shadow: 0 0 30px rgb(238, 228, 247);
+}
+}
+span:nth-child(1){
+
+animation-delay: 0.5s;
+}
+span:nth-child(2){
+
+animation-delay: 1s;
+}span:nth-child(3){
+
+animation-delay: 1.5s;
+}span:nth-child(4){
+
+animation-delay: 2s;
+}span:nth-child(5){
+
+animation-delay: 2.5s;
+}
+span:nth-child(6){
+
+animation-delay: 3s;
+}
+span:nth-child(7){
+
+animation-delay: 3.5s;
+}

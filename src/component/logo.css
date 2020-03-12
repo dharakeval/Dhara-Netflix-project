@@ -1,0 +1,30 @@
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:800);
+
+.image{
+
+    
+    width: 100%;
+    filter: brightness(42%);
+   height: auto;
+  }
+  h1{
+
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:honeydew;
+  }
+  h1>.body-text{
+      
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    font-size: 50%;
+
+    transform: translate(-50%, -50%);
+    text-decoration: underline;
+   
+
+  }

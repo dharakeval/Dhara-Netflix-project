@@ -1,0 +1,44 @@
+
+
+
+/* .navbar{
+
+    position: absolute;
+    width: 150px;
+    margin-top: 10px;
+} */
+.image{
+
+    
+    width: 100%;
+    filter: brightness(42%);
+   height: auto;
+  }
+ul{
+    
+    
+    list-style-type: none;
+    overflow: hidden;
+    height: 50px;
+    background-color: rgb(12, 12, 12);
+    text-decoration: none;
+   
+}
+li{
+    float: right;
+   margin-left:20px;
+   margin-right: 10px;
+   border-left: 1px solid white;
+   
+  padding: 10px;
+
+}
+.navbar-nav{
+    display: block;
+}
+li .nav-link{
+  
+    color: rgb(218, 28, 132);
+}
+
+

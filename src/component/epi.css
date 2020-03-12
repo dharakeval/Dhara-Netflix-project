@@ -1,0 +1,53 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+section{
+
+    margin-left: 450px ;
+    margin-top: 40px;
+    padding:5px;
+    width: 100%;
+    
+   
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightcoral;
+  }
+  
+  .flex-container > div >div>section{
+    background-color: #f1f1f1;
+    width: 500px;
+    margin: 10px;
+    text-align: left;
+    line-height: 75px;
+    font-size: 20px;
+  }
+.sort .sort1{
+
+    margin-left: 200px;
+}
+.search{
+
+    width: 400px;
+    height: 30px;
+  margin-top: 10px;
+  margin-left: 150px;
+    
+
+}
+.imgback{
+    background-image:linear-gradient(pink , purple) ;
+    height: 100%;
+}
+
+.sort,.sort1{
+
+    background-color: blueviolet;
+    border: none;
+    margin:40px 250px 40px 50px;
+    
+}
+@media screen and (min-width:480px){
+
+    .sort1 {margin-left: 216px;}
+}
